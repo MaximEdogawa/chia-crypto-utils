@@ -1,0 +1,7 @@
+// ignore_for_file: lines_longer_than_80_chars
+
+import 'package:chia_crypto_utils/src/clvm/program.dart';
+
+final ach_completion = Program.deserializeHex(
+  'ff02ffff01ff04ffff04ff0cffff04ff05ff808080ffff04ffff04ff08ffff04ff17ff808080ffff04ffff04ff0affff04ff1bffff04ff17ff80808080ffff04ffff04ff0effff01ff808080ff8080808080ffff04ffff01ffff4950ff333cff018080',
+);
